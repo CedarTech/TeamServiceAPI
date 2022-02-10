@@ -9,5 +9,6 @@ namespace TeamServiceAPI.Data
         bool SaveChanges();
         void CreateTeam(Team team);
         void UpdateTeam(Team team);
+        void DeleteTeam(Team team);
     }
 }

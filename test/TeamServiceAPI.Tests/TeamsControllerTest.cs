@@ -1,3 +1,4 @@
+using System.Security.Principal;
 using System.Collections;
 using System.Collections.Generic;
 using System;
@@ -98,6 +99,17 @@ namespace TeamServiceAPI.Tests
             mockRepo.Setup(r => r.GetTeamById(Guid.NewGuid())).Returns(() => null);
             var controller = new TeamsController(mockRepo.Object, mapper);
             var result = controller.UpdateTeam(Guid.NewGuid(), new TeamUpdateDto() { });
+            Assert.IsType<NotFoundResult>(result);
+        }
+
+        [Fact]
+        public void DeleteTeam_ReturnsNotFound_WhenNonExistentResourceIdSubmitted()
+        {
+            mockRepo.Setup(r => r.GetTeamById(Guid.NewGuid())).Returns(() => null);
+            var controller = new TeamsController(mockRepo.Object, mapper);
+
+            var result = controller.DeleteTeam(Guid.NewGuid());
+
             Assert.IsType<NotFoundResult>(result);
         }
 

@@ -11,6 +11,11 @@ namespace TeamServiceAPI.Data
 
         }
 
+        public void DeleteTeam(Team team)
+        {
+
+        }
+
         public Team GetTeamById(Guid id)
         {
             throw new NotImplementedException();

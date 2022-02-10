@@ -65,7 +65,16 @@ namespace TeamServiceAPI.Controllers
 
             if (!result) { return StatusCode(500); }
             return NoContent();
+        }
 
+        [HttpDelete("{guid}")]
+        public ActionResult DeleteTeam(Guid guid)
+        {
+            var teamModelFromRepo = _repo.GetTeamById(guid);
+            if (teamModelFromRepo == null) { return NotFound(); }
+            _repo.DeleteTeam(teamModelFromRepo);
+            _repo.SaveChanges();
+            return NoContent();
         }
     }
 }
