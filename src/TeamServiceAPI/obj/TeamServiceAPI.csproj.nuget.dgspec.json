@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\src\\TeamServiceAPI\\TeamServiceAPI.csproj": {}
+    "C:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\src\\TeamServiceAPI\\TeamServiceAPI.csproj": {}
   },
   "projects": {
-    "c:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\src\\TeamServiceAPI\\TeamServiceAPI.csproj": {
+    "C:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\src\\TeamServiceAPI\\TeamServiceAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\src\\TeamServiceAPI\\TeamServiceAPI.csproj",
+        "projectUniqueName": "C:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\src\\TeamServiceAPI\\TeamServiceAPI.csproj",
         "projectName": "TeamServiceAPI",
-        "projectPath": "c:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\src\\TeamServiceAPI\\TeamServiceAPI.csproj",
+        "projectPath": "C:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\src\\TeamServiceAPI\\TeamServiceAPI.csproj",
         "packagesPath": "C:\\Users\\TP\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\src\\TeamServiceAPI\\obj\\",
+        "outputPath": "C:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\src\\TeamServiceAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TP\\AppData\\Roaming\\NuGet\\NuGet.Config",

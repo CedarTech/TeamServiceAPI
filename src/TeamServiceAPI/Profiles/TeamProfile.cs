@@ -10,6 +10,7 @@ namespace TeamServiceAPI.Profiles
         {
             CreateMap<Team, TeamReadDto>();
             CreateMap<TeamCreateDto, Team>();
+            CreateMap<TeamUpdateDto, Team>();
         }
 
     }

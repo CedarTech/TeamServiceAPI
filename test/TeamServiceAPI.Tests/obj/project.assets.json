@@ -6379,11 +6379,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\test\\TeamServiceAPI.Tests\\TeamServiceAPI.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\test\\TeamServiceAPI.Tests\\TeamServiceAPI.Tests.csproj",
       "projectName": "TeamServiceAPI.Tests",
-      "projectPath": "c:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\test\\TeamServiceAPI.Tests\\TeamServiceAPI.Tests.csproj",
+      "projectPath": "C:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\test\\TeamServiceAPI.Tests\\TeamServiceAPI.Tests.csproj",
       "packagesPath": "C:\\Users\\TP\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\test\\TeamServiceAPI.Tests\\obj\\",
+      "outputPath": "C:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\test\\TeamServiceAPI.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6400,8 +6400,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "c:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\src\\TeamServiceAPI\\TeamServiceAPI.csproj": {
-              "projectPath": "c:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\src\\TeamServiceAPI\\TeamServiceAPI.csproj"
+            "C:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\src\\TeamServiceAPI\\TeamServiceAPI.csproj": {
+              "projectPath": "C:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\src\\TeamServiceAPI\\TeamServiceAPI.csproj"
             }
           }
         }

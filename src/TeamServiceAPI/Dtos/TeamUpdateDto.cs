@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace TeamServiceAPI.Dtos
 {
-    public class TeamCreateDto
+    public class TeamUpdateDto
     {
         [Required]
         Guid ID { get; set; }
@@ -13,4 +13,5 @@ namespace TeamServiceAPI.Dtos
         string Name { get; set; }
         ICollection<MemberCreateDto> Members { get; set; }
     }
+
 }

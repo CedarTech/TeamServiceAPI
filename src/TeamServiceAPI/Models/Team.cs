@@ -6,9 +6,11 @@ namespace TeamServiceAPI.Models
 {
     public class Team
     {
+        [Key]
         [Required]
         public Guid ID { get; set; }
         [Required]
+        [MaxLength(100)]
         public string Name { get; set; }
         public ICollection<Member> Members { get; set; }
 

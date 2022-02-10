@@ -53,5 +53,19 @@ namespace TeamServiceAPI.Controllers
 
             return CreatedAtRoute(new { Id = TeamReadDto.ID }, TeamReadDto);
         }
+
+        [HttpPut("{guid}")]
+        public ActionResult UpdateTeam(Guid guid, TeamUpdateDto teamUpdateDto)
+        {
+            var teamModelFromRepo = _repo.GetTeamById(guid);
+            if (teamModelFromRepo == null) { return NotFound(); }
+            _mapper.Map(teamUpdateDto, teamModelFromRepo);
+            _repo.UpdateTeam(teamModelFromRepo);//Placeholder for ORMs other than EF.
+            var result = _repo.SaveChanges();
+
+            if (!result) { return StatusCode(500); }
+            return NoContent();
+
+        }
     }
 }

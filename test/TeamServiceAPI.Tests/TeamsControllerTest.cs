@@ -92,6 +92,15 @@ namespace TeamServiceAPI.Tests
             Assert.IsType<ActionResult<TeamReadDto>>(result);
         }
 
+        [Fact]
+        public void UpdateTeam_Returns404NotFound_WhenNonExistentResourceIdSubmitted()
+        {
+            mockRepo.Setup(r => r.GetTeamById(Guid.NewGuid())).Returns(() => null);
+            var controller = new TeamsController(mockRepo.Object, mapper);
+            var result = controller.UpdateTeam(Guid.NewGuid(), new TeamUpdateDto() { });
+            Assert.IsType<NotFoundResult>(result);
+        }
+
     }
 
 }

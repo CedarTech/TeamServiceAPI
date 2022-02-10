@@ -5,6 +5,7 @@ namespace TeamServiceAPI.Models
 {
     public class Member
     {
+        [Key]
         [Required]
         public Guid ID { get; set; }
         // public Guid TeamID { get; set; }

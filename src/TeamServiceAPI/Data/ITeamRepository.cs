@@ -8,5 +8,6 @@ namespace TeamServiceAPI.Data
         Team GetTeamById(Guid id);
         bool SaveChanges();
         void CreateTeam(Team team);
+        void UpdateTeam(Team team);
     }
 }

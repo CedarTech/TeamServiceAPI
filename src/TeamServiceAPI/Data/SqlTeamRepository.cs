@@ -20,5 +20,10 @@ namespace TeamServiceAPI.Data
         {
             throw new NotImplementedException();
         }
+
+        public void UpdateTeam(Team team)
+        {
+            //It's a placeholder, don't need to do anything when using EF.
+        }
     }
 }

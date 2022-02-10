@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZMZy/J1Qe8kNuJNc32C/QHH1lmnbnfzfcKzbu3M6+qt7c7egCm0DdesCCKwmlvM1h2rRBpwU7AVNTYZPQGPoVA==",
+  "dgSpecHash": "rdf3JwHE2OUzg8jioVZvbU3m4QpNhEjFHzD2tVVM/Iuq5QG9rgo02ed5EfIEN9Iv8RNrS3Z/nKOak3FJYzkthQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\test\\TeamServiceAPI.Tests\\TeamServiceAPI.Tests.csproj",
+  "projectFilePath": "C:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\test\\TeamServiceAPI.Tests\\TeamServiceAPI.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TP\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\TP\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
