@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\src\\TeamServiceAPI\\TeamServiceAPI.csproj": {}
+    "c:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\src\\TeamServiceAPI\\TeamServiceAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\src\\TeamServiceAPI\\TeamServiceAPI.csproj": {
+    "c:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\src\\TeamServiceAPI\\TeamServiceAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\src\\TeamServiceAPI\\TeamServiceAPI.csproj",
+        "projectUniqueName": "c:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\src\\TeamServiceAPI\\TeamServiceAPI.csproj",
         "projectName": "TeamServiceAPI",
-        "projectPath": "C:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\src\\TeamServiceAPI\\TeamServiceAPI.csproj",
+        "projectPath": "c:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\src\\TeamServiceAPI\\TeamServiceAPI.csproj",
         "packagesPath": "C:\\Users\\TP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\src\\TeamServiceAPI\\obj\\",
+        "outputPath": "c:\\Users\\TP\\Downloads\\Source\\repos\\BuildMsvcAsp\\TeamServiceAPI\\src\\TeamServiceAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Automapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
